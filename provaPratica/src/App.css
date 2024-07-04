@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F0F0F0;
+}
+
+.header-container{
+  background-color: #CCCCCC;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-senai{
+  height: 45px;
+  margin-left: 30px;
+}
+
+header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 7px;
+  margin-right: 30px;
+}
+
+.search-container{
+  margin: 20px;
+}
+.search{
+  margin: 10px;
+}
+
+.campo{
+  padding: 20px;
+  width: 300px;
+}
+
+.galeria{
+  padding: 20px;
+}
+.clube{
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.info{
+  display: block;
+}
+.escudos-img{
+  margin-right: 20px;
+}
+.nome{
+  margin-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center; /* Adicionado para centralizar o conteúdo */
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-container img {
+    margin: 0;
+  }
+
+  .header-container div {
+    margin: 5px 0;
+  }
+
+  .search-container,
+  .galeria,
+  .campo,
+  header {
+    width: 100%; /* Ajustado para largura total */
+    padding: 10px;
+  }
+
+  .campo {
+    width: 100%; /* Ajustado para largura total */
+    padding: 10px; /* Ajustado para melhor usabilidade */
+  }
+
+  .search {
+    width: 180px; /* Ajustado para largura total */
+  }
+}
+
